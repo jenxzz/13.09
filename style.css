@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: aliceblue;
+    z-index: 1000;
+    padding: 10px 0;
+    box-sizing: border-box;
+    justify-content: right;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 50px; 
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.paragrafo {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lista {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#intro {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 20px;
+}   
+
+#civic, #civic2 {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#gtr, #gtr2 {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contato {
+    background-color: cadetblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    margin-left: 20%;
+    margin-top: 10px;
+}
